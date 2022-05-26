@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet/css" href="../css/site.css" />
+    <link rel="stylesheet" href="../css/site.css" />
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -60,7 +60,12 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
+       <div class="container h-100 minHeight">
+           <div class="row h-100 row-cols-1 row-cols-md-3 gy-1">
+               <div class="col col-md-3"><div class="bg-dark text-light h-100 p-1">COL ONE</div></div>
+               <div class="col col-md-6"><div class="bg-secondary text-dark h-100 p-1">COL TWO</div></div>
+               <div class="col col-md-3"><div class="bg-dark text-light h-100 p-1">COL THREE</div></div>
+           </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
